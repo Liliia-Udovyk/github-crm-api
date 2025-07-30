@@ -45,7 +45,7 @@ In the `github-crm-api` root, create a `.env` file.
 docker network create githubcrm_network
 ```
 
-### 3. Start the backend
+### 3. Start the project
 
 ```bash
 docker-compose up --build
