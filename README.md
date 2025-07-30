@@ -10,6 +10,27 @@ This is the backend for the GitHub CRM project built with NestJS.
 * Swagger (API Docs)
 * Docker
 
+## 📖 Project Description
+
+This project is a simple CRM system for managing public GitHub projects.
+
+### Key Features:
+
+- User registration and authentication via email and password.
+- After login, users access a project list displaying:
+  - Project owner
+  - Project name
+  - Project URL
+  - Number of stars
+  - Number of forks
+  - Number of open issues
+  - Creation date (UTC Unix timestamp)
+  - Buttons to update and delete projects
+- To add a new GitHub repository, users only provide the repository path (e.g., `facebook/react`).
+- Ability to synchronise with GitHub and delete projects
+- Quick system startup with Docker and Docker Compose.
+- Clean and well-documented code following best practices.
+
 ## 🚀 Running with Docker
 
 ### 1. Create `.env` file
