@@ -35,7 +35,7 @@ This project is a simple CRM system for managing public GitHub projects.
 
 ### 1. Create `.env` file
 
-In the `github-crm-nest` root, create a `.env` file.
+In the `github-crm-api` root, create a `.env` file.
 
 > Note: `github_crm_db` is the name of the Postgres service used in the shared Docker network.
 
